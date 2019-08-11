@@ -1,3 +1,4 @@
+---------------- TEST TABLE TO EXAMPLE ----------------
 CREATE TABLE Employee(
 	ID INT CONSTRAINT PK_Employee PRIMARY KEY IDENTITY,
 	Name VARCHAR(50),
@@ -9,7 +10,7 @@ GO
 
 
 BULK INSERT Employee
-FROM 'C:\Users\alexa\temp\teste_import_func.txt'
+FROM 'file path'
 WITH
 (
 	KEEPNULLS,
