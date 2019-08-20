@@ -1,7 +1,7 @@
 # sql-serve-bulk-insert
 Simple bulk insert from Excel spreadsheet
 
-You need just adapt your Excel spreadsheet, change all of cells to text type and insert a column clear if the ID is Auto incremented.
+You need just adapt your Excel spreadsheet, change all of cells to text type (except dates) and insert a column clear if the ID is Auto incremented.
 So do you save as .txt (unicode).
 
 also if your spreadsheet use "," how decimal separator you just
